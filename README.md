@@ -10,4 +10,5 @@ The project involved wiring the Arduino Uno and DRV8825 driver, establishing the
 
 Before you start creating or even thinking about your circuits, you first need to understand what kind of stepper motor you have and what that means for your circuit. The most common stepper motors are usually either 4-wired, 6-wired, or 8-wired. 
 
-![4-wire-stepper](https://github.com/DiegoArmstrong/RC-Stepper-Motor/assets/74511707/3bb25bbe-e476-45c3-bd70-b53d56197092)
+![Untitled design](https://github.com/DiegoArmstrong/RC-Stepper-Motor/assets/74511707/dbb72af6-66a8-4008-947f-8e9e7fa6b1b1)
+
