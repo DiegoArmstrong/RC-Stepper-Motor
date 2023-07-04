@@ -27,6 +27,7 @@ Make sure to adjust the current limiter appropriately to your stepper motor so a
 
 I found that having the current limit set at 1A worked just fine to move the motor, so adjust the current limiter until your reference voltage reads close to 0.5V. * Apologies for the crowded circuits and poor visibility but this is what my circuit looked like in the end.
 
+![FinalCircuit](https://github.com/DiegoArmstrong/RC-Stepper-Motor/assets/74511707/ab5c6a61-f7d1-4fe3-acb3-3c88f7ee837c)
 
 
 
