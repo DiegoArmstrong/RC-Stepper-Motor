@@ -12,3 +12,8 @@ Before you start creating or even thinking about your circuits, you first need t
 
 ![Untitled design](https://github.com/DiegoArmstrong/RC-Stepper-Motor/assets/74511707/dbb72af6-66a8-4008-947f-8e9e7fa6b1b1)
 
+Stepper motors can also be either Unipolar or Bipolar. Bipolar motors generally have more torque and are more efficient than unipolar motors. In contrast, unipolar motors use only half of each winding coil at a given time, resulting in lower torque and efficiency.
+
+The DRV8825 is intended for 4-wire bipolar stepper motors. So what do you do if you have a stepper motor with more wires? Well, in a 4-wire motor, one coil is connected via a positive and negative side. The easiest way to think about it is that this coil is represented by a pair of pins on your stepper motor. 6 and 8 wire motors have what are called center taps in between these pairs. These center taps are intended for high-torque purposes and we do not need them. So you simply connect your 6 or 8-wire stepper motor as if it were a 4-wire Bipolar motor. To do this you skip the center taps as such…
+
+(A+ goes with A- |  B+ goes with B-)    We skip ACT and BCT (A Center Tap, B Center Tap).
